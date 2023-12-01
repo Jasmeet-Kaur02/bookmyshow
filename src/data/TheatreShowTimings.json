@@ -1,0 +1,223 @@
+[
+    {"theatreShowId": 1, "time": "09:00:00"},
+    {"theatreShowId": 1, "time": "12:10:00"},
+    {"theatreShowId": 1, "time": "18:00:00"},
+    
+    {"theatreShowId": 2, "time": "09:00:00"},
+    {"theatreShowId": 2, "time": "12:10:11"},
+    {"theatreShowId": 2, "time": "21:00:00"},
+
+    {"theatreShowId": 3, "time": "09:00:00"},
+    {"theatreShowId": 3, "time": "13:00:00"},
+
+    {"theatreShowId": 4, "time": "12:00:00"},
+
+    {"theatreShowId": 5, "time": "09:00:00"},
+    {"theatreShowId": 5, "time": "13:00:00"},
+    {"theatreShowId": 5, "time": "21:00:00"},
+
+    {"theatreShowId": 6, "time": "09:00:00"},
+    {"theatreShowId": 6, "time": "18:00:00"},
+
+    {"theatreShowId": 7, "time": "09:00:00"},
+    {"theatreShowId": 7, "time": "18:00:00"},
+    {"theatreShowId": 7, "time": "21:00:00"},
+
+    {"theatreShowId": 8, "time": "09:00:00"},
+    {"theatreShowId": 8, "time": "13:00:00"},
+    {"theatreShowId": 8, "time": "21:00:00"},
+
+    {"theatreShowId": 9, "time": "18:00:00"},
+
+    {"theatreShowId": 10, "time": "09:00:00"},
+    {"theatreShowId": 10, "time": "12:00:00"},
+
+    {"theatreShowId": 11, "time": "09:00:00"},
+    {"theatreShowId": 11, "time": "12:00:00"},
+    {"theatreShowId": 11, "time": "21:00:00"},
+
+    {"theatreShowId": 12, "time": "09:00:00"},
+    {"theatreShowId": 12, "time": "18:00:00"},
+    {"theatreShowId": 12, "time": "21:00:00"},
+
+    {"theatreShowId": 13, "time": "09:00:00"},
+
+    {"theatreShowId": 14, "time": "09:00:00"},
+    {"theatreShowId": 14, "time": "12:00:00"},
+    {"theatreShowId": 14, "time": "21:00:00"},
+
+    {"theatreShowId": 15, "time": "09:00:00"},
+    {"theatreShowId": 15, "time": "18:00:00"},
+
+    {"theatreShowId": 16, "time": "09:00:00"},
+    {"theatreShowId": 16, "time": "12:00:00"},
+
+    {"theatreShowId": 17, "time": "09:00:00"},
+    {"theatreShowId": 17, "time": "13:00:00"},
+
+    {"theatreShowId": 18, "time": "12:00:00"},
+
+    {"theatreShowId": 19, "time": "09:00:00"},
+    {"theatreShowId": 19, "time": "13:10:00"},
+    {"theatreShowId": 19, "time": "21:00:00"},
+
+    {"theatreShowId": 20, "time": "09:00:00"},
+    {"theatreShowId": 20, "time": "18:00:00"},
+
+    {"theatreShowId": 21, "time": "09:00:00"},
+    {"theatreShowId": 21, "time": "12:10:00"},
+
+    {"theatreShowId": 22, "time": "09:00:00"},
+    {"theatreShowId": 22, "time": "12:00:00"},
+    {"theatreShowId": 22, "time": "18:00:00"},
+
+    {"theatreShowId": 23, "time": "09:00:00"},
+    {"theatreShowId": 23, "time": "12:00:00"},
+    {"theatreShowId": 23, "time": "21:00:00"},
+
+    {"theatreShowId": 24, "time": "09:00:00"},
+    {"theatreShowId": 24, "time": "21:00:00"},
+
+    {"theatreShowId": 25, "time": "09:00:00"},
+
+    {"theatreShowId": 26, "time": "18:00:00"},
+
+    {"theatreShowId": 27, "time": "09:00:00"},
+    {"theatreShowId": 27, "time": "12:00:00"},
+
+    {"theatreShowId": 28, "time": "09:00:00"},
+    {"theatreShowId": 28, "time": "18:00:00"},
+
+    {"theatreShowId": 29, "time": "09:00:00"},
+    {"theatreShowId": 29, "time": "21:00:00"},
+    {"theatreShowId": 29, "time": "21:00:00"},
+
+    {"theatreShowId": 30, "time": "09:00:00"},
+    {"theatreShowId": 30, "time": "18:00:00"},
+
+    {"theatreShowId": 31, "time": "09:00:00"},
+    {"theatreShowId": 31, "time": "12:00:00"},
+    {"theatreShowId": 31, "time": "21:00:00"},
+
+    {"theatreShowId": 32, "time": "09:00:00"},
+
+    {"theatreShowId": 33, "time": "09:00:00"},
+    {"theatreShowId": 33, "time": "21:00:00"},
+
+    {"theatreShowId": 34, "time": "09:00:00"},
+    {"theatreShowId": 34, "time": "18:00:00"},
+
+    {"theatreShowId": 35, "time": "09:00:00"},
+    {"theatreShowId": 35, "time": "12:00:00"},
+
+    {"theatreShowId": 36, "time": "09:00:00"},
+    {"theatreShowId": 37, "time": "09:00:00"},
+    {"theatreShowId": 37, "time": "12:00:00"},
+    {"theatreShowId": 37, "time": "09:00:00"},
+
+    {"theatreShowId": 38, "time": "09:00:00"},
+    {"theatreShowId": 38, "time": "12:00:00"},
+
+    {"theatreShowId": 39, "time": "09:00:00"},
+
+    {"theatreShowId": 40, "time": "18:00:00"},
+
+    {"theatreShowId": 41, "time": "09:00:00"},
+
+    {"theatreShowId": 42, "time": "09:00:00"},
+    {"theatreShowId": 42, "time": "12:00:00"},
+    {"theatreShowId": 42, "time": "21:00:00"},
+
+    {"theatreShowId": 43, "time": "09:00:00"},
+    {"theatreShowId": 43, "time": "18:00:00"},
+
+    {"theatreShowId": 44, "time": "09:00:00"},
+    {"theatreShowId": 44, "time": "18:00:00"},
+    {"theatreShowId": 44, "time": "21:00:00"},
+
+    {"theatreShowId": 45, "time": "09:00:00"},
+    {"theatreShowId": 45, "time": "12:00:00"},
+
+    {"theatreShowId": 46, "time": "09:00:00"},
+    {"theatreShowId":46, "time": "12:10:00"},
+
+    {"theatreShowId": 47, "time": "09:00:00"},
+    {"theatreShowId": 47, "time": "18:00:00"},
+
+    {"theatreShowId": 48, "time": "09:00:00"},
+
+    {"theatreShowId": 49, "time": "09:00:00"},
+    {"theatreShowId": 49, "time": "18:00:00"},
+    {"theatreShowId": 49, "time": "21:00:00"},
+
+    {"theatreShowId": 50, "time": "09:00:00"},
+    {"theatreShowId": 50, "time": "18:00:00"},
+
+    {"theatreShowId": 51, "time": "09:00:00"},
+
+    {"theatreShowId": 52, "time": "09:00:00"},
+    {"theatreShowId": 52, "time": "21:00:00"},
+
+    {"theatreShowId": 53, "time": "09:00:00"},
+    {"theatreShowId": 53, "time": "18:00:00"},
+
+    {"theatreShowId": 54, "time": "09:00:00"},
+    {"theatreShowId": 54, "time": "21:00:00"},
+
+    {"theatreShowId": 55, "time": "09:00:00"},
+    {"theatreShowId": 55, "time": "12:00:00"},
+
+    {"theatreShowId": 56, "time": "09:00:00"},
+    {"theatreShowId": 56, "time": "18:00:00"},
+
+    {"theatreShowId": 57, "time": "09:00:00"},
+    {"theatreShowId": 57, "time": "12:10:00"},
+
+    {"theatreShowId": 58, "time": "09:00:00"},
+    {"theatreShowId": 58, "time": "21:00:00"},
+
+    {"theatreShowId": 59, "time": "09:00:00"},
+    {"theatreShowId": 59, "time": "18:00:00"},
+
+    {"theatreShowId": 60, "time": "09:00:00"},
+
+    {"theatreShowId": 61, "time": "09:00:00"},
+    {"theatreShowId": 61, "time": "12:00:00"},
+    {"theatreShowId": 61, "time": "18:00:00"},
+
+    {"theatreShowId": 62, "time": "09:00:00"},
+    {"theatreShowId": 62, "time": "12:00:00"},
+    {"theatreShowId": 62, "time": "18:00:00"},
+    {"theatreShowId": 63, "time": "21:00:00"},
+
+    {"theatreShowId": 64, "time": "09:00:00"},
+    {"theatreShowId": 64, "time": "12:00:00"},
+    {"theatreShowId": 64, "time": "21:00:00"},
+
+    {"theatreShowId": 65, "time": "09:00:00"},
+    {"theatreShowId": 65, "time": "18:00:00"},
+
+    {"theatreShowId": 66, "time": "09:00:00"},
+    
+    {"theatreShowId": 67, "time": "09:00:00"},
+
+    {"theatreShowId": 68, "time": "09:00:00"},
+
+    {"theatreShowId": 69, "time": "09:00:00"},
+
+    {"theatreShowId": 70, "time": "09:00:00"},
+    {"theatreShowId": 70, "time": "12:00:00"},
+
+    {"theatreShowId": 71, "time": "09:00:00"},
+    {"theatreShowId": 71, "time": "12:00:00"},
+    {"theatreShowId": 71, "time": "06:00:00"},
+    {"theatreShowId": 71, "time": "21:00:00"},
+
+    {"theatreShowId": 73, "time": "09:00:00"},
+    {"theatreShowId": 73, "time": "18:00:00"},
+
+    {"theatreShowId": 74, "time": "09:00:00"},
+    {"theatreShowId": 74, "time": "12:00:00"},
+    {"theatreShowId": 74, "time": "21:00:00"}
+    
+]
