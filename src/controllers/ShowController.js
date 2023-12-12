@@ -1,4 +1,10 @@
-const { Show, TheatreShow, TheatreShowTiming } = require("../models");
+const {
+  Show,
+  TheatreShow,
+  TheatreShowTiming,
+  ShowBooking,
+  sequelize,
+} = require("../models");
 
 const getShowsByTheatreAndDate = async (req, res) => {
   const theatreId = parseInt(req.params.theatreId);
@@ -8,10 +14,8 @@ const getShowsByTheatreAndDate = async (req, res) => {
       include: [
         {
           model: TheatreShow,
-          attributes: {
-            include: ["date"],
-            exclude: ["theatreId", "showId", "id"],
-          },
+          as: "showDates",
+          attributes: ["date"],
           where: {
             theatreId: theatreId,
             date: new Date(date),
@@ -19,8 +23,8 @@ const getShowsByTheatreAndDate = async (req, res) => {
           include: [
             {
               model: TheatreShowTiming,
-              attributes: { exclude: ["theatreShowId", "id"] },
-              as: "timings",
+              attributes: ["time", "id"],
+              as: "showTimings",
             },
           ],
         },
@@ -41,6 +45,50 @@ const getShowsByTheatreAndDate = async (req, res) => {
   }
 };
 
+const createBooking = async (req, res) => {
+  const data = req.body;
+
+  try {
+    await sequelize.transaction(async (t) => {
+      try {
+        const showBooking = await ShowBooking.create(
+          {
+            userId: data.userId,
+            theatreShowTimingId: data.timingId,
+            createdAt: new Date(),
+            udpatedAt: new Date(),
+          },
+          { transaction: t }
+        );
+
+        await showBooking.addSeats(data.seats, { transaction: t });
+        await t.commit();
+        const seats = await showBooking.getSeats();
+
+        return res.status(201).json({
+          status: true,
+          message: "Seats has been reserved",
+          data: { showBooking, seats: seats },
+        });
+      } catch (err) {
+        await t.rollback();
+        return res.status(500).json({
+          status: false,
+          message: "Internal Server Error",
+          data: null,
+        });
+      }
+    });
+  } catch (err) {
+    return res.status(500).json({
+      status: true,
+      message: "Internal Server Error",
+      data: null,
+    });
+  }
+};
+
 module.exports = {
   getShowsByTheatreAndDate,
+  createBooking,
 };

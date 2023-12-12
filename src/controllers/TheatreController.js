@@ -5,6 +5,7 @@ const {
   TheatreShowTiming,
   TheatreShow,
   Seat,
+  sequelize,
 } = require("../models");
 
 const getCities = async (req, res) => {
@@ -58,19 +59,55 @@ const getSeatsByTheatreAndShow = async (req, res) => {
     attributes: ["screenId"],
   })
     .then(async (theatreShow) => {
-      console.log(theatreShow);
       await Seat.findAll({
         where: { screenId: theatreShow[0].dataValues.screenId },
+        attributes: [
+          "number",
+          "id",
+          [
+            sequelize.fn(
+              "IF",
+              sequelize.where(
+                sequelize.col("ShowBookings->bookedSeats.seatId"),
+                "IS NOT", // Or 'IS NULL' based on the condition you need
+                null
+              ),
+              "TRUE",
+              "FALSE"
+            ),
+            "isBooked",
+          ],
+        ],
         include: [
           {
             model: ShowBooking,
+            required: false,
+            attributes: {
+              exclude: [
+                "userId",
+                "theatreShowTimingId",
+                "id",
+                "createdAt",
+                "updatedAt",
+              ],
+            },
             include: [
               {
                 model: TheatreShowTiming,
                 where: { time: time },
+                attributes: { exclude: ["theatreShowId", "id", "time"] },
                 include: [
                   {
                     model: TheatreShow,
+                    attributes: {
+                      exclude: [
+                        "theatreId",
+                        "showId",
+                        "id",
+                        "screenId",
+                        "date",
+                      ],
+                    },
                     where: {
                       theatreId: theatreId,
                       showId: showId,
