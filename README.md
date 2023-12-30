@@ -28,6 +28,7 @@ run the following commands
 
 ```
 npm i
+npx sequelize-cli db:seed:all
 node index
 ```
 
@@ -66,3 +67,23 @@ This application has following routes.
 ## Additional Information 
 
 This application use Sequelize ORM.
+
+## indexes 
+
+1. **Theatre table:**
+  
+   **index columns** - cityId
+
+   **Reason** - To improve the performance of retrieving all theatres based on the selected city.
+2. **TheatreShows table:**
+   
+   **index columns** - theatreId and date
+   
+   **Reason** - To improve performance of retrieving all rows which has selected theatreId and date.
+3. **TheatreShowTimings table:**
+   
+   **index columns** - theatreShowId, time
+   
+   **Reason** - Creating an index on the theatreShowId column improves the loading time of retrieving all related rows from both the theatreShowTiming table and the 
+   theatreShow table.
+   
