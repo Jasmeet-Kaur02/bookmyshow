@@ -1,0 +1,1 @@
+{"development":{"username":"jass","password":"Jass1810","database":"book_my_show","host":"127.0.0.1","dialect":"mysql"},"test":{"username":"jass","password":"Jass1810","database":"book_my_show","host":"127.0.0.1","dialect":"mysql"},"production":{"username":"jass","password":"Jass1810","database":"book_my_show","host":"127.0.0.1","dialect":"mysql"}}

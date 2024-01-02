@@ -1,0 +1,11 @@
+[ 
+{"name": "PVR Cinemas", "cityId": 1},
+{"name": "Carnival Cinemas", "cityId": 1},
+
+{"name": "PVR Cinemas", "cityId": 2},
+{"name": "Carnival Cinemas", "cityId": 2},
+{"name": "INOX C 21 Mall", "cityId": 2},
+
+{"name": "PVR Cinemas", "cityId": 3},
+{"name": "Carnival Cinemas", "cityId": 3}
+]

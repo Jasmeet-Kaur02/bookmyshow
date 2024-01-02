@@ -1,0 +1,21 @@
+[
+    {"number": 120, "theatreId": 1},
+    {"number": 121, "theatreId": 1},
+
+    {"number": 130, "theatreId": 2},
+    {"number": 131, "theatreId": 2},
+
+    {"number": 140, "theatreId": 3},
+
+    {"number": 150, "theatreId": 4},
+    {"number": 151, "theatreId": 4},
+
+    {"number": 160, "theatreId": 5},
+
+    {"number": 170, "theatreId": 6},
+    {"number": 171, "theatreId": 6},
+
+    {"number": 180, "theatreId": 7},
+    {"number": 181, "theatreId": 7}
+
+]

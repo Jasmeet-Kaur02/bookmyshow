@@ -1,0 +1,16 @@
+[
+  {
+    "fullName": "John doe",
+    "email": "john@mail.com",
+    "password": "john1234",
+    "createdAt": "2023-10-10 09:00:00",
+    "updatedAt": "2023-10-10 09:00:00"
+  },
+  {
+    "fullName": "Jane Smith",
+    "email": "jane@mail.com",
+    "password": "jane1234",
+    "createdAt"
+: "2023-11-23 10:02:03",
+"updatedAt" : "2023-11-10 10:02:03" }
+]
